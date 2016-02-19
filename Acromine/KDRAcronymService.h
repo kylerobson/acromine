@@ -14,7 +14,7 @@
 
 - (void)setupWithClient:(KDRAcronymClient *)client;
 
-typedef void (^KDRServiceLongformsForTermCompletion)(BOOL success, NSArray *longforms);
+typedef void (^KDRServiceLongformsForTermCompletion)(BOOL success, BOOL cancelled, NSArray *longforms);
 - (KDRCancellableBlock)longformsForTerm:(NSString *)term completion:(KDRServiceLongformsForTermCompletion)completion;
 
 @end

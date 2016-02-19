@@ -35,18 +35,20 @@ static NSString * const kCellID = @"Cell";
 #pragma mark - internal
 
 - (void)searchForTerm:(NSString *)term {
-    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     KDRCancelBlock(self.searchCancel);
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     __weak KDRAcronymsViewController *welf = self;
-    self.searchCancel = [self.service longformsForTerm:term completion:^(BOOL success, NSArray *longforms) {
-        if (success) {
-            welf.longforms = longforms;
-            [welf.tableView reloadData];
+    self.searchCancel = [self.service longformsForTerm:term completion:^(BOOL success, BOOL cancelled, NSArray *longforms) {
+        if (!cancelled) {
+            if (success) {
+                welf.longforms = longforms;
+                [welf.tableView reloadData];
+            }
+            else {
+                [self showError];
+            }
+            [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
         }
-        else {
-            [self showError];
-        }
-        [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
     }];
 }
 

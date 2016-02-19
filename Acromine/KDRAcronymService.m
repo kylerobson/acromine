@@ -26,7 +26,7 @@
 
 - (KDRCancellableBlock)longformsForTerm:(NSString *)term completion:(KDRServiceLongformsForTermCompletion)completion {
     if (![term hasUsefulLength] && completion) {
-        completion(NO, nil);
+        completion(NO, NO, nil);
         return nil;
     }
     __block BOOL cancelled = NO;
@@ -37,14 +37,14 @@
                 NSArray *longforms = [parser longformsForJSONArray:responseObject term:term];
                 if (completion) {
                     dispatch_async(dispatch_get_main_queue(), ^{
-                        completion(success, longforms);
+                        completion(success, cancelled, longforms);
                     });
                 }
             });
         }
         else {
             if (completion) {
-                completion(success, nil);
+                completion(success, cancelled, nil);
             }
         }
     }];
