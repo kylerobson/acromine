@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2775FCEC1C76D68D002449B5 /* KDRAcronymsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775FCEB1C76D68D002449B5 /* KDRAcronymsViewController.m */; };
+		2775FCEF1C76DD54002449B5 /* NSString+KDR.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775FCEE1C76DD54002449B5 /* NSString+KDR.m */; };
+		2775FCF21C76DFCA002449B5 /* KDRAcronymClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775FCF11C76DFCA002449B5 /* KDRAcronymClient.m */; };
+		2775FCF51C76E34A002449B5 /* KDRAcronymService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775FCF41C76E34A002449B5 /* KDRAcronymService.m */; };
+		2775FCF81C76E3DB002449B5 /* KDRAcronymParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775FCF71C76E3DB002449B5 /* KDRAcronymParser.m */; };
+		2775FCFB1C76E473002449B5 /* KDRLongform.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775FCFA1C76E473002449B5 /* KDRLongform.m */; };
+		2775FCFF1C76E76E002449B5 /* KDRObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775FCFE1C76E76E002449B5 /* KDRObject.m */; };
+		2775FD031C77AEA6002449B5 /* NSDictionary+KDR.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775FD021C77AEA6002449B5 /* NSDictionary+KDR.m */; };
+		2775FD071C77B90C002449B5 /* UIViewController+KDR.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775FD061C77B90C002449B5 /* UIViewController+KDR.m */; };
+		2775FD0A1C77B94E002449B5 /* UIStoryboard+KDR.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775FD091C77B94E002449B5 /* UIStoryboard+KDR.m */; };
+		27B529431C76D1F500790F99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B529421C76D1F500790F99 /* main.m */; };
+		27B529461C76D1F500790F99 /* KDRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B529451C76D1F500790F99 /* KDRAppDelegate.m */; };
+		27B5294C1C76D1F500790F99 /* KDRAcronymsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B5294A1C76D1F500790F99 /* KDRAcronymsViewController.storyboard */; };
+		27B529511C76D1F500790F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B5294F1C76D1F500790F99 /* LaunchScreen.storyboard */; };
+		2C8A676EDBC3163C85563901 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABF74B858AE5B9A0B65ABC6 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2775FCEA1C76D68D002449B5 /* KDRAcronymsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDRAcronymsViewController.h; sourceTree = "<group>"; };
+		2775FCEB1C76D68D002449B5 /* KDRAcronymsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDRAcronymsViewController.m; sourceTree = "<group>"; };
+		2775FCED1C76DD54002449B5 /* NSString+KDR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KDR.h"; sourceTree = "<group>"; };
+		2775FCEE1C76DD54002449B5 /* NSString+KDR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KDR.m"; sourceTree = "<group>"; };
+		2775FCF01C76DFCA002449B5 /* KDRAcronymClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDRAcronymClient.h; sourceTree = "<group>"; };
+		2775FCF11C76DFCA002449B5 /* KDRAcronymClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDRAcronymClient.m; sourceTree = "<group>"; };
+		2775FCF31C76E34A002449B5 /* KDRAcronymService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDRAcronymService.h; sourceTree = "<group>"; };
+		2775FCF41C76E34A002449B5 /* KDRAcronymService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDRAcronymService.m; sourceTree = "<group>"; };
+		2775FCF61C76E3DB002449B5 /* KDRAcronymParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDRAcronymParser.h; sourceTree = "<group>"; };
+		2775FCF71C76E3DB002449B5 /* KDRAcronymParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDRAcronymParser.m; sourceTree = "<group>"; };
+		2775FCF91C76E473002449B5 /* KDRLongform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDRLongform.h; sourceTree = "<group>"; };
+		2775FCFA1C76E473002449B5 /* KDRLongform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDRLongform.m; sourceTree = "<group>"; };
+		2775FCFC1C76E484002449B5 /* KDRDictionaryUpdating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDRDictionaryUpdating.h; sourceTree = "<group>"; };
+		2775FCFD1C76E76E002449B5 /* KDRObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDRObject.h; sourceTree = "<group>"; };
+		2775FCFE1C76E76E002449B5 /* KDRObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDRObject.m; sourceTree = "<group>"; };
+		2775FD011C77AEA6002449B5 /* NSDictionary+KDR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KDR.h"; sourceTree = "<group>"; };
+		2775FD021C77AEA6002449B5 /* NSDictionary+KDR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KDR.m"; sourceTree = "<group>"; };
+		2775FD041C77B47A002449B5 /* KDRCancellableBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDRCancellableBlock.h; sourceTree = "<group>"; };
+		2775FD051C77B90C002449B5 /* UIViewController+KDR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KDR.h"; sourceTree = "<group>"; };
+		2775FD061C77B90C002449B5 /* UIViewController+KDR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KDR.m"; sourceTree = "<group>"; };
+		2775FD081C77B94E002449B5 /* UIStoryboard+KDR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+KDR.h"; sourceTree = "<group>"; };
+		2775FD091C77B94E002449B5 /* UIStoryboard+KDR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+KDR.m"; sourceTree = "<group>"; };
+		27B5293E1C76D1F500790F99 /* Acromine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acromine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B529421C76D1F500790F99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27B529441C76D1F500790F99 /* KDRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDRAppDelegate.h; sourceTree = "<group>"; };
+		27B529451C76D1F500790F99 /* KDRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDRAppDelegate.m; sourceTree = "<group>"; };
+		27B5294B1C76D1F500790F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/KDRAcronymsViewController.storyboard; sourceTree = "<group>"; };
+		27B529501C76D1F500790F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27B529521C76D1F500790F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475107EF0C702821953717CB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6ABF74B858AE5B9A0B65ABC6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5B4C9F7DE86C05E2B55299 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27B5293B1C76D1F500790F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8A676EDBC3163C85563901 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2775FD0B1C77C81D002449B5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2775FD181C77C8D4002449B5 /* NSDictionary+KDR */,
+				2775FD171C77C8C8002449B5 /* NSString+KDR */,
+				2775FD1A1C77C8E8002449B5 /* UIStoryboard+KDR */,
+				2775FD191C77C8DE002449B5 /* UIViewController+KDR */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		2775FD0C1C77C835002449B5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2775FCFC1C76E484002449B5 /* KDRDictionaryUpdating.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		2775FD0D1C77C842002449B5 /* Other sources */ = {
+			isa = PBXGroup;
+			children = (
+				2775FD161C77C8B8002449B5 /* App delegate */,
+				27B529421C76D1F500790F99 /* main.m */,
+			);
+			name = "Other sources";
+			sourceTree = "<group>";
+		};
+		2775FD0E1C77C84D002449B5 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2775FD041C77B47A002449B5 /* KDRCancellableBlock.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		2775FD0F1C77C857002449B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2775FD1D1C77C91C002449B5 /* Base */,
+				2775FD1E1C77C923002449B5 /* Longform */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2775FD101C77C861002449B5 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				2775FD1C1C77C911002449B5 /* Acronym */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		2775FD111C77C873002449B5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2775FD1B1C77C902002449B5 /* Acronym */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2775FD121C77C87C002449B5 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				2775FD201C77C951002449B5 /* Acronym */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		2775FD131C77C885002449B5 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2775FD1F1C77C947002449B5 /* Acronyms */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
+		2775FD141C77C893002449B5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				27B5294A1C76D1F500790F99 /* KDRAcronymsViewController.storyboard */,
+				27B5294F1C76D1F500790F99 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		2775FD161C77C8B8002449B5 /* App delegate */ = {
+			isa = PBXGroup;
+			children = (
+				27B529441C76D1F500790F99 /* KDRAppDelegate.h */,
+				27B529451C76D1F500790F99 /* KDRAppDelegate.m */,
+			);
+			name = "App delegate";
+			sourceTree = "<group>";
+		};
+		2775FD171C77C8C8002449B5 /* NSString+KDR */ = {
+			isa = PBXGroup;
+			children = (
+				2775FCED1C76DD54002449B5 /* NSString+KDR.h */,
+				2775FCEE1C76DD54002449B5 /* NSString+KDR.m */,
+			);
+			name = "NSString+KDR";
+			sourceTree = "<group>";
+		};
+		2775FD181C77C8D4002449B5 /* NSDictionary+KDR */ = {
+			isa = PBXGroup;
+			children = (
+				2775FD011C77AEA6002449B5 /* NSDictionary+KDR.h */,
+				2775FD021C77AEA6002449B5 /* NSDictionary+KDR.m */,
+			);
+			name = "NSDictionary+KDR";
+			sourceTree = "<group>";
+		};
+		2775FD191C77C8DE002449B5 /* UIViewController+KDR */ = {
+			isa = PBXGroup;
+			children = (
+				2775FD051C77B90C002449B5 /* UIViewController+KDR.h */,
+				2775FD061C77B90C002449B5 /* UIViewController+KDR.m */,
+			);
+			name = "UIViewController+KDR";
+			sourceTree = "<group>";
+		};
+		2775FD1A1C77C8E8002449B5 /* UIStoryboard+KDR */ = {
+			isa = PBXGroup;
+			children = (
+				2775FD081C77B94E002449B5 /* UIStoryboard+KDR.h */,
+				2775FD091C77B94E002449B5 /* UIStoryboard+KDR.m */,
+			);
+			name = "UIStoryboard+KDR";
+			sourceTree = "<group>";
+		};
+		2775FD1B1C77C902002449B5 /* Acronym */ = {
+			isa = PBXGroup;
+			children = (
+				2775FCF31C76E34A002449B5 /* KDRAcronymService.h */,
+				2775FCF41C76E34A002449B5 /* KDRAcronymService.m */,
+			);
+			name = Acronym;
+			sourceTree = "<group>";
+		};
+		2775FD1C1C77C911002449B5 /* Acronym */ = {
+			isa = PBXGroup;
+			children = (
+				2775FCF61C76E3DB002449B5 /* KDRAcronymParser.h */,
+				2775FCF71C76E3DB002449B5 /* KDRAcronymParser.m */,
+			);
+			name = Acronym;
+			sourceTree = "<group>";
+		};
+		2775FD1D1C77C91C002449B5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2775FCFD1C76E76E002449B5 /* KDRObject.h */,
+				2775FCFE1C76E76E002449B5 /* KDRObject.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		2775FD1E1C77C923002449B5 /* Longform */ = {
+			isa = PBXGroup;
+			children = (
+				2775FCF91C76E473002449B5 /* KDRLongform.h */,
+				2775FCFA1C76E473002449B5 /* KDRLongform.m */,
+			);
+			name = Longform;
+			sourceTree = "<group>";
+		};
+		2775FD1F1C77C947002449B5 /* Acronyms */ = {
+			isa = PBXGroup;
+			children = (
+				2775FCEA1C76D68D002449B5 /* KDRAcronymsViewController.h */,
+				2775FCEB1C76D68D002449B5 /* KDRAcronymsViewController.m */,
+			);
+			name = Acronyms;
+			sourceTree = "<group>";
+		};
+		2775FD201C77C951002449B5 /* Acronym */ = {
+			isa = PBXGroup;
+			children = (
+				2775FCF01C76DFCA002449B5 /* KDRAcronymClient.h */,
+				2775FCF11C76DFCA002449B5 /* KDRAcronymClient.m */,
+			);
+			name = Acronym;
+			sourceTree = "<group>";
+		};
+		27B529351C76D1F500790F99 = {
+			isa = PBXGroup;
+			children = (
+				27B529401C76D1F500790F99 /* Acromine */,
+				27B5293F1C76D1F500790F99 /* Products */,
+				A9949E3F1661738C4013C5BC /* Pods */,
+				52320455E2229A330207685B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27B5293F1C76D1F500790F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27B5293E1C76D1F500790F99 /* Acromine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27B529401C76D1F500790F99 /* Acromine */ = {
+			isa = PBXGroup;
+			children = (
+				2775FD0B1C77C81D002449B5 /* Categories */,
+				2775FD121C77C87C002449B5 /* Clients */,
+				2775FD0E1C77C84D002449B5 /* Headers */,
+				2775FD0F1C77C857002449B5 /* Models */,
+				2775FD0D1C77C842002449B5 /* Other sources */,
+				2775FD101C77C861002449B5 /* Parsers */,
+				2775FD0C1C77C835002449B5 /* Protocols */,
+				2775FD111C77C873002449B5 /* Services */,
+				2775FD141C77C893002449B5 /* Storyboards */,
+				27B529411C76D1F500790F99 /* Supporting Files */,
+				2775FD131C77C885002449B5 /* View controllers */,
+			);
+			path = Acromine;
+			sourceTree = "<group>";
+		};
+		27B529411C76D1F500790F99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27B529521C76D1F500790F99 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52320455E2229A330207685B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF74B858AE5B9A0B65ABC6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9949E3F1661738C4013C5BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				475107EF0C702821953717CB /* Pods.debug.xcconfig */,
+				8C5B4C9F7DE86C05E2B55299 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27B5293D1C76D1F500790F99 /* Acromine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B529551C76D1F500790F99 /* Build configuration list for PBXNativeTarget "Acromine" */;
+			buildPhases = (
+				FA539E151937D9AB7D292F7A /* Check Pods Manifest.lock */,
+				27B5293A1C76D1F500790F99 /* Sources */,
+				27B5293B1C76D1F500790F99 /* Frameworks */,
+				27B5293C1C76D1F500790F99 /* Resources */,
+				563AB4AA171108FE1DD66009 /* Embed Pods Frameworks */,
+				19476BF8EE07A3B8821847B0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Acromine;
+			productName = Acromine;
+			productReference = 27B5293E1C76D1F500790F99 /* Acromine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27B529361C76D1F500790F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kyle Robson";
+				TargetAttributes = {
+					27B5293D1C76D1F500790F99 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 27B529391C76D1F500790F99 /* Build configuration list for PBXProject "Acromine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27B529351C76D1F500790F99;
+			productRefGroup = 27B5293F1C76D1F500790F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27B5293D1C76D1F500790F99 /* Acromine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27B5293C1C76D1F500790F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B529511C76D1F500790F99 /* LaunchScreen.storyboard in Resources */,
+				27B5294C1C76D1F500790F99 /* KDRAcronymsViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19476BF8EE07A3B8821847B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		563AB4AA171108FE1DD66009 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA539E151937D9AB7D292F7A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27B5293A1C76D1F500790F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2775FCEC1C76D68D002449B5 /* KDRAcronymsViewController.m in Sources */,
+				2775FCEF1C76DD54002449B5 /* NSString+KDR.m in Sources */,
+				27B529461C76D1F500790F99 /* KDRAppDelegate.m in Sources */,
+				2775FCF81C76E3DB002449B5 /* KDRAcronymParser.m in Sources */,
+				2775FCFF1C76E76E002449B5 /* KDRObject.m in Sources */,
+				2775FD071C77B90C002449B5 /* UIViewController+KDR.m in Sources */,
+				27B529431C76D1F500790F99 /* main.m in Sources */,
+				2775FCFB1C76E473002449B5 /* KDRLongform.m in Sources */,
+				2775FD0A1C77B94E002449B5 /* UIStoryboard+KDR.m in Sources */,
+				2775FCF21C76DFCA002449B5 /* KDRAcronymClient.m in Sources */,
+				2775FD031C77AEA6002449B5 /* NSDictionary+KDR.m in Sources */,
+				2775FCF51C76E34A002449B5 /* KDRAcronymService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27B5294A1C76D1F500790F99 /* KDRAcronymsViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27B5294B1C76D1F500790F99 /* Base */,
+			);
+			name = KDRAcronymsViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		27B5294F1C76D1F500790F99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27B529501C76D1F500790F99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27B529531C76D1F500790F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27B529541C76D1F500790F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27B529561C76D1F500790F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475107EF0C702821953717CB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Acromine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KDR.Acromine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27B529571C76D1F500790F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5B4C9F7DE86C05E2B55299 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Acromine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KDR.Acromine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27B529391C76D1F500790F99 /* Build configuration list for PBXProject "Acromine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B529531C76D1F500790F99 /* Debug */,
+				27B529541C76D1F500790F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27B529551C76D1F500790F99 /* Build configuration list for PBXNativeTarget "Acromine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B529561C76D1F500790F99 /* Debug */,
+				27B529571C76D1F500790F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27B529361C76D1F500790F99 /* Project object */;
+}
