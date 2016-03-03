@@ -45,9 +45,9 @@ static NSString * const kCellID = @"Cell";
                 [welf.tableView reloadData];
             }
             else {
-                [self showError];
+                [welf showError];
             }
-            [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+            [MBProgressHUD hideAllHUDsForView:welf.view animated:YES];
         }
     }];
 }
